@@ -10,12 +10,12 @@ Você deverá criar uma consulta nos livros, buscando por:
 6. Titulo, sinopse e Autor
 7. Titulo, Sinopse, Categoria e Autor
 
-## Consultas sem utilização da View
+## Consultas
 
 Consultas | Código
 --------- | ------
 Título | SELECT * FROM vwLivros WHERE titulo LIKE '%Aj%';
-Título e Sinopse | SELECT * FROM livro WHERE titulo LIKE '%Ajax%' and sinopse LIKE '%A%';
+Título e Sinopse | SELECT * FROM vwLivros WHERE titulo LIKE '%Ajax%' and sinopse LIKE '%A%';
 Categoria | SELECT * FROM vwLivros WHERE genero LIKE '%Poe%';
 Titulo, Sinopse e Categoria | SELECT * FROM vwLivros WHERE titulo LIKE '%Ajax%' and sinopse LIKE '%a%' and genero LIKE '%poesia%';
 Autor | SELECT * FROM vwLivros WHERE autor LIKE '%Hugo%';
