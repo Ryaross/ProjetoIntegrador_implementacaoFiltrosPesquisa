@@ -2,13 +2,13 @@
 
 Você deverá criar uma consulta nos livros, buscando por:
 
-1. Título
-2. Título e Sinopse
-3. Categoria
-4. Titulo, Sinopse e Categoria
-5. Autor
-6. Titulo, sinopse e Autor
-7. Titulo, Sinopse, Categoria e Autor
+- [x] Título
+- [x] Título e Sinopse
+- [x] Categoria
+- [x] Titulo, Sinopse e Categoria
+- [x] Autor
+- [x] Titulo, sinopse e Autor
+- [x] Titulo, Sinopse, Categoria e Autor
 
 ## Consultas
 
